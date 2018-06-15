@@ -7,11 +7,12 @@
 
 <!-- HTML META -->
 <head>
-<title>Projet SpeedWay</title>
+<title>Projet Ecstasy</title>
 <meta name="author" content="Quentin Quadrat" />
 <meta name="copyright" content="Creative Common BY-NC-SA" />
 <meta name="keywords" content="3D shoot game,Delphi,OpenGL,EPITA" />
-<meta name="description" content="A simple 3D shoot game made in legacy OpenGL and Delphi for Windows" />
+<meta name="description" content="A simple 3D car driving in a city with its traffic jam
+made in legacy OpenGL and Delphi for Windows" />
 <meta name="generator" content="GNU m4" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link href="css/styles.css" rel="stylesheet" type="text/css" />
@@ -27,7 +28,7 @@
   <tr>
     <td colspan="2">
       <div id="main_title">
-        Projet SpeedWay
+        Projet Ecstasy
       </div>
     </td>
     <td id="right_top_border"></td>
@@ -73,7 +74,7 @@
     <td id="left_border">
         <div id="menu">
            <!-- Translated Pages -->
-           <p><img src="img/fr.png" style="border:0;" alt="fr"/> <a href="speedway-fr.m4-en.html"><img src="img/en.png" style="border:0;" alt="en"/></a></p>
+           <p><img src="img/fr.png" style="border:0;" alt="fr"/> <a href="ecstasy-fr.m4-en.html"><img src="img/en.png" style="border:0;" alt="en"/></a></p>
 
            <!-- Begin Table of Contents -->
 <h1>Table des mati&egrave;res:</h1>
@@ -81,7 +82,8 @@
 <li><a href="#intro"><img class="icone7" src="img/bullet.gif" alt=""/>Pr&eacute;sentation.</a></li>
 <li><a href="#view"><img class="icone7" src="img/bullet.gif" alt=""/>Aper&ccedil;us du jeu.</a></li>
 <li><a href="#download"><img class="icone7" src="img/bullet.gif" alt=""/>T&eacute;l&eacute;chargement.</a></li>
-<li><a href="#heart"><img class="icone7" src="img/bullet.gif" alt=""/>Au coeur de SpeedWay.</a></li>
+<li><a href="#heart"><img class="icone7" src="img/bullet.gif" alt=""/>Au coeur d'Ecstasy.</a></li>
+<li><a href="#devel"><img class="icone7" src="img/bullet.gif" alt=""/>Pour les d&eacute;veloppeurs.</a></li>
 <li><a href="#links"><img class="icone7" src="img/bullet.gif" alt=""/>Liens utiles pour la programmation OpenGL.</a></li>
 </ul>
 <!-- End Table of Contents -->
@@ -91,8 +93,8 @@
 <!-- Left Heading -->
 <h1>Projets similaires :</h1>
 <ul class="items">
-<!-- <li><a href="speedway"><img class="icone7" src="img/bullet.gif" alt=""/>Speedway.</a></li> -->
- <li><a href="ecstasy"><img class="icone7" src="img/bullet.gif" alt=""/>Ecstasy.</a></li> 
+ <li><a href="speedway"><img class="icone7" src="img/bullet.gif" alt=""/>Speedway.</a></li> 
+<!-- <li><a href="ecstasy"><img class="icone7" src="img/bullet.gif" alt=""/>Ecstasy.</a></li> -->
 </ul>
 
            <!-- END LEFT BORDER DIVERSION -->
@@ -136,45 +138,41 @@ Page auto-g&eacute;n&eacute;r&eacute;e le :</h1>
     <!-- BEGIN ARTICLE -->
     <td id="article">
         
-<a href="https://github.com/Lecrapouille/SpeedWay"><img style="position: absolute; top: 0; left: 0; border: 0; width: 149px; height: 149px;" src="img/forkme.png" alt="Fork me on GitHub"></a>
+<a href="https://github.com/Lecrapouille/Ecstasy"><img style="position: absolute; top: 0; left: 0; border: 0; width: 149px; height: 149px;" src="img/forkme.png" alt="Fork me on GitHub"></a>
 
-<!-- Section: Le projet SpeedWay -->
-<h1>Le projet SpeedWay</h1>
+<!-- Section: Le projet Ecstasy -->
+<h1>Le projet Ecstasy</h1>
 
 <!-- Subsection: Pr&eacute;sentation -->
 <a id="intro" name="intro"></a><h2><img class="icone20" src="img/read.png" alt=""/>Pr&eacute;sentation</h2>
 <div class="boite"> 
 
-<p>Speedway est un doom-like 3D o&ugrave; des voitures, divis&eacute;es en deux
-   camps, se combattent jusqu'&agrave; ce que l'un des deux camps ait r&eacute;duit
-   le nombre de ses adversaires &agrave; z&eacute;ro ! On peut jouer sur une demi
-   douzaine d'univers et de voitures diff&eacute;rentes.</p>
+<p>Ecstasy est un jeu ayant pour but de piloter une voiture dans une
+   ville de type am&eacute;ricaine &agrave; travers son trafic routier. La dynamique
+   voiture du joueur est mod&eacute;lis&eacute;e. Ecstasy est un projet d'&eacute;tudiant
+   fait &agrave; l'&eacute;cole EPITA en 2002-2003. Il a &eacute;t&eacute; r&eacute;alis&eacute; en OpenGL et
+   Borland Delphi 5 et DirectSound et fonctionne uniquement pour
+   Windows 95/98/2000/XP.  En 2017, j'ai apport&eacute; quelques
+   modifications pour le rendre un peu plus beau et jouable mais je
+   n'ai pas le temps de totalement le finir. N&eacute;anmoins, il semble
+   fonctionner et compiler sur des versions plus r&eacute;centes de Windows
+   et de Delphi (que je ne poss&egrave;de pas, d&eacute;sol&eacute;).</p>
 
-<p>Speedway est un projet d'&eacute;tudiants fait &agrave; l'&eacute;cole EPITA en
-   2001-2002. Il fut, pour l'ensemble de ses d&eacute;veloppeurs, notre
-   premier projet en &eacute;quipe et nos premiers pas dans le monde de la
-   programmation. Il a &eacute;t&eacute; d&eacute;velopp&eacute; en Opengl, Borland Delphi 5 et
-   DirectSound et fonctionne uniquement pour Windows 95/98/2000/XP.
-   Il devrait fonctionner et compiler pour sur les versions plus
-   r&eacute;centes de Windows et de Delphi.</p>
+<p>Le sc&eacute;nario est tr&egrave;s simple : vous conduisez une voiture dans une
+   ville. Ce jeu n'a &eacute;videmment pas la pr&eacute;tention d'&ecirc;tre aussi
+   amusant qu'un jeu commercial comme Midtown Madness ou GTA. Pour
+   jouer, vous devez conna&icirc;tre les touches suivantes :</p>
 
-<p>Le sc&eacute;nario est tr&egrave;s simple : &eacute;liminer toutes les voitures ennemies
-   en leur tirant dessus et en convertissant les morts. La conversion
-   se fait en se rapprochant de la voiture d&eacute;truite et cette derni&egrave;re
-   ressuscite instantan&eacute;ment et devient un alli&eacute;. Go&ucirc;ter alors aux
-   plaisirs de la n&eacute;cromancie m&eacute;canique ^^.</p>
-
-<p>Pour jouer, vous devez conna&icirc;tre les touches suivantes :</p>
 <!-- Begin List -->
 <ul>
-<li><strong>HAUT/BAS/DROIT/GAUCHE</strong> : avance/recule/droite/gauche.</li>
-<li><strong>1 &agrave; 6</strong> : change d'armes.</li>
-<li><strong>ESPACE</strong> : tirer.</li>
-<li><strong>HOME</strong> : arme suivante.</li>
-<li><strong>A</strong> : change de vue (3 diff&eacute;rentes).</li>
-<li><strong>TABULATION</strong> : change de voitures.</li>
+<li><strong>HAUT/BAS</strong> : acc&eacute;l&egrave;re ou freine la voiture.</li>
+<li><strong>GAUCHE/DROITE/souris</strong> : tourne le volant.</li>
+<li><strong>4, 6, 2, 8</strong> : change la position ou l'angle de la cam&eacute;ra.</li>
+<li><strong>F1</strong> : change de mode de cam&eacute;ra (vue int&eacute;rieure,ext&eacute;rieure).</li>
+<li><strong>TABULATION</strong> : change le levier de vitesse: conduite ou recule.</li>
 </ul>
 <!-- End list -->
+</p>
 
 <div class="right"><a href="#top_page"><img class="icone5" src="img/2uparrow.png" alt="up"/></a></div></div>
 <!-- Subsection: Aper&ccedil;us du jeu -->
@@ -183,14 +181,9 @@ Page auto-g&eacute;n&eacute;r&eacute;e le :</h1>
 
 <table width="90%" align="center">
     <tr>
-        <td align="center"><a href="speedway/blackmesa.jpg"><img class="caption" src="speedway/blackmesa.jpg" alt="picture"/></a></td>
-        <td align="center"><a href="speedway/carte.jpg"><img class="caption" src="speedway/carte.jpg" alt="picture"/></a></td>
-        <td align="center"><a href="speedway/ville.jpg"><img class="caption" src="speedway/ville.jpg" alt="picture"/></a></td>
-    </tr>
-    <tr>
-        <td align="center"><a href="speedway/hell.jpg"><img class="caption" src="speedway/hell.jpg" alt="picture"/></a></td>
-        <td align="center"><a href="speedway/foret.jpg"><img class="caption" src="speedway/foret.jpg" alt="picture"/></a></td>
-        <td align="center"><a href="speedway/tank.jpg"><img class="caption" src="speedway/tank.jpg" alt="picture"/></a></td>
+        <td align="center"><a href="ecstasy/saut.jpg"><img class="caption" src="ecstasy/saut.jpg" alt="picture"/></a></td>
+        <td align="center"><a href="ecstasy/pont.jpg"><img class="caption" src="ecstasy/pont.jpg" alt="picture"/></a></td>
+        <td align="center"><a href="ecstasy/menu.jpg"><img class="caption" src="ecstasy/menu.jpg" alt="picture"/></a></td>
     </tr>
 </table>
 <div class="centrer">Cliquer sur les images pour les agrandir.</div>
@@ -200,66 +193,152 @@ Page auto-g&eacute;n&eacute;r&eacute;e le :</h1>
 <a id="download" name="download"></a><h2><img class="icone20" src="img/tgz.png" alt="download"/>T&eacute;l&eacute;chargement</h2>
 <div class="boite"> 
 
-<p>Ce projet n'est plus d&eacute;velopp&eacute; mais ses sources sont disponibles
-   sur <a href="https://github.com/Lecrapouille/Speedway" target="_blank">GitHub</a> <img src="img/github.png" alt="github" height="16" width="16" border="0"/>. Ce programme est disponible en open
-   source. Il vous faudra un Delphi Borland pour compiler les sources
-   (au moins la version 5). <strong>Attention:</strong> pour des soucis de
-   poids, certaines ressources graphiques et sonores n'ont pas forc&eacute;ment
-   &eacute;t&eacute; toutes stock&eacute;es sur le repo git. Vous pouvez les t&eacute;l&eacute;charger
-   ci-dessous.</p>
+<p>Ce projet n'est plus d&eacute;velopp&eacute; (sauf une fois en 2017) mais le code
+source est disponible sur <a href="https://github.com/Lecrapouille/Ecstasy" target="_blank">GitHub</a> <img src="img/github.png" alt="github" height="16" width="16" border="0"/> en open source. Il vous
+faudra un Delphi Borland (de pr&eacute;f&eacute;rence version 5) pour compiler les
+sources. Ce projet n'a pas &eacute;t&eacute; con&ccedil;u pour fonctionner pour Linux, Mac
+OS X car Window XP 32-bits &eacute;tait impos&eacute; par nos
+professeurs.</p>
 
 <table width="90%" align="center">
     <tr>
-        <td align="center"><a href="speedway/speedway_soutenance4.pdf">Le
-rapport</a></td>
-        <td align="center"><a href="speedway/speedway.rar">SpeedWay version
-0.1</a></td>
-        <td align="center"><a href="speedway/speedway_sources.rar">Les Sources Delphi</a></td>
+        <td align="center"><a href="ecstasy/ecstasy1_setup.rar">Ecstasy version 2002</a></td>
+        <td align="center"><a href="ecstasy/ecstasy1_light.rar">Version l&eacute;g&egrave;re version 2002</a></td>
+        <td align="center"><a href="ecstasy/ecstasy1_sources.rar">Les sources version 2002</a></td>
     </tr>
     <tr>
+        <td align="center"><img class="icone30" src="img/tgz.png" alt="tarball"/></td>
+        <td align="center"><img class="icone30" src="img/tgz.png" alt="tarball"/></td>
+        <td align="center"><img class="icone30" src="img/tgz.png" alt="tarball"/></td>
+    </tr>
+    <tr>
+        <td align="center">9 Mo --- format RAR</td>
+        <td align="center">3.4 Mo --- format RAR</td>
+        <td align="center">1.7 Mo --- format RAR</td>
+    </tr>
+    <tr>
+        <td align="center"><a href="ecstasy/ecstasy2.rar">Ecstasy Windows XP 32-bits version 2017</a></td>
+        <td align="center"><a href="ecstasy/ecstasy2_sources.rar">Les sources version 2017</a></td>
+        <td align="center"><a href="ecstasy/ecst_sout4.pdf">Le rapport</a></td>
+    </tr>
+    <tr>
+        <td align="center"><img class="icone30" src="img/tgz.png" alt="tarball"/></td>
+        <td align="center"><img class="icone30" src="img/tgz.png" alt="tarball"/></td>
         <td align="center"><img class="icone30" src="img/pdf.png" alt="pdf"/></td>
-        <td align="center"><img class="icone30" src="img/tgz.png" alt="tarball"/></td>
-        <td align="center"><img class="icone30" src="img/tgz.png" alt="tarball"/></td>
     </tr>
     <tr>
-        <td align="center">100 Ko --- format PDF</td>
-        <td align="center">10 Mo --- format
-RAR</td>
-        <td align="center">750 Ko --- format RAR</td>
+        <td align="center">6 Mo --- format RAR</td>
+        <td align="center">1.5 Mo --- format RAR</td>
+        <td align="center">500 Ko --- format PDF</td>
     </tr>
 </table>
 
-<div class="right"><a href="#top_page"><img class="icone5" src="img/2uparrow.png" alt="up"/></a></div></div>
-<!-- Subsection: Au coeur de SpeedWay -->
-<a id="heart" name="heart"></a><h2><img class="icone20" src="img/gear.png" alt=""/>Au coeur de SpeedWay</h2>
-<div class="boite"> 
-
-<p>Etant des programmeurs novices &agrave; l'&eacute;poque, le jeu est tr&egrave;s lent
-    m&ecirc;me avec un PC actuel. Cela est du aux nombreux tests de
-    collisions (v&eacute;hicules contre v&eacute;hicules et v&eacute;hicules contre les
-    murs) non optimis&eacute;s car lanc&eacute;s sur tous les triangles de la
-    sc&egrave;ne. Un arbre BSP ou un Quad-Tree aurait aid&eacute; le jeu &agrave; r&eacute;duire
-    le nombre de calculs, mais nous n'avions pas eu le temps de le
-    faire &agrave; l'&eacute;poque. Autre probl&egrave;me: les voitures peuvent d&eacute;marrer
-    le jeu dans le d&eacute;cor.</p>
-
-<p>Ce que le code contient :</p>
+<p>Remarques:</p>
 <!-- Begin List -->
 <ul>
-<li>Dessins (voitures et cartes) dessin&eacute;s gr&acirc;ce au logiciel 3D Studio
-     Max et conversion des fichiers ASE de 3D Studio Max en une liste
-     de triangles directement utilisables pour OpenGL.</li>
-<li>D&eacute;tection de collision sur les triangles de la carte
-    (avec la cam&eacute;ra et les voitures).</li>
-<li>Champs de force entre voitures et sur les murs (attractifs et
-    r&eacute;pulsifs) des voitures contr&ocirc;l&eacute;es par l'ordinateur pour simuler
-    une IA de pelotons et d'ennemis.</li>
-<li>Quelques effets avec OpenGl comme des explosions (avec des
-    particules ou uniquement avec des textures), des arcs
-    &eacute;lectriques, des effets d'&eacute;blouissements.</li>
-<li>Tirs des voitures, bonus sur le sol &agrave; r&eacute;cup&eacute;rer, sons, etc...</li>
+<li>Programmeurs novices &agrave; l'&eacute;poque, nous n'avons omis de mettre un
+  cadenceur pour la boucle d'it&eacute;ration du jeu (en g&eacute;n&eacute;ral 30 ou 60
+  FPS, &agrave; savoir images par secondes). Donc, selon la puissance de
+  votre PC, le jeu peut &ecirc;tre extr&ecirc;mement rapide, le rendant
+  injouable.</li>
+<li>Dans la version de 2017, les immeubles ainsi que le terrain suivent
+  mieux l'altitude de la route, les trottoirs ont &eacute;t&eacute; ajout&eacute;s (la
+  voiture du joueur ne passe plus &agrave; travers). Le roulis a &eacute;t&eacute; rajout&eacute; &agrave;
+  la voiture du joueur ainsi que des correctifs de programmation dans
+  la dynamique.</li>
+<li>La version de 2002 contient un setup qui permet d'installer et de
+  supprimer correctement le jeu pour Windows XP (il y aura aucun
+  risque de plantage pour votre Windows car l'installation consiste
+  simplement &agrave; copier l'ex&eacute;cutable &agrave; l'endroit d&eacute;sir&eacute; par
+  l'utilisateur et rien de plus). Dans la version de 2017, il n'y aura
+  pas de setup (vu que j'ai perdu cet outil).</li>
 </ul>
 <!-- End list -->
+
+<div class="right"><a href="#top_page"><img class="icone5" src="img/2uparrow.png" alt="up"/></a></div></div>
+<!-- Subsection: Au coeur d'Ecstasy -->
+<a id="heart" name="heart"></a><h2><img class="icone20" src="img/gear.png" alt=""/>Au coeur d'Ecstasy</h2>
+<div class="boite"> 
+
+<p>Les mod&egrave;les 3D des voitures sont l'oeuvre de fans du jeu
+  <a href="https://fr.wikipedia.org/wiki/Midtown_Madness_2" target="_blank">Midtown
+  Madness II</a> <img src="img/externallink.png" height="12" width="12" border="0" alt="extlink"/>. Elles proviennent de nombreux sites web consacr&eacute;s et
+  &eacute;taient t&eacute;l&eacute;chargeables gratuitement. J'ai depuis perdu la liste des
+  sites ainsi que le nom des auteurs (pour cela si un auteur reconnait
+  son oeuvre et ne souhaite pas la voir dans ce jeu, qu'il me fasse
+  signe et je les retirerai aussit&ocirc;t du programme). Les voitures ont
+  &eacute;t&eacute; converties au format 3D Studio Max, simplifi&eacute;es et enfin
+  export&eacute;es au format ASE.</p>
+
+<p>Le paragraphe suivant n'est pas &eacute;crit dans le README de mon repo
+  GitHub.</p>
+
+<p>Si un joueur veut d&eacute;finir lui-m&ecirc;me sa propre voiture dans 3D
+  Studio Max. Il peut facilement l'importer dans Ecstasy de la fa&ccedil;on
+  suivante :</p>
+<!-- Begin List -->
+<ul>
+<li>Cr&eacute;er un nouveau dossier avec le nom de la voiture dans le dossier
+ <strong>data\Voitures</strong>.</li>
+<li>Dessiner une carcasse de voiture avec 3D Studio Max et l'exporter au
+  format ASE (ascii) dans le nouveau dossier sous le nom de
+  <strong>carcasse.ase</strong>. La voiture doit avoir une longueur de 12
+  unit&eacute;s et 5 unit&eacute;s de largeur et doit avoir sa t&ecirc;te orient&eacute;e vers la
+  droite dans la fen&ecirc;tre <strong>Top</strong> (<a href="ecstasy/export0.jpg">voir
+  l'image</a>). Attention toutes les meshes doivent avoir leur texture :
+  si un seul triangle ne poss&egrave;de pas sa texture Ecstasy ne d&eacute;marre
+  pas. Pensez &agrave; centrer la voiture sur l'origine !</li>
+<li>Pour l'exporter en ASE cochez les options comme dans l'image suivante
+  (<a href="ecstasy/export1.jpg">voir l'image</a>).</li>
+<li>Dessiner &eacute;galement la roue gauche centr&eacute;e sur
+  l'origine et l'exporter sous <strong>roue.ase</strong>.</li>
+<li>Prendre une photo de la voiture et la nommer
+    <strong>photo.jpg</strong>.</li>
+<li>Mettre les textures (au format bmp, tga ou jpeg) dans le dossier
+    <strong>data\Textures</strong>.</li>
+<li>Cr&eacute;er un fichier <strong>info.txt</strong> et mettre les
+    param&egrave;tres de la voiture (poids de la roue, de la carcasse,
+    raideur des ressort, position des roues, etc).</li>
+<li>Lancer le programme, s&eacute;lectionner la nouvelle voiture et
+jouer.</li>
+</ul>
+<!-- End list -->
+
+<table width="90%" align="center">
+    <tr>
+        <td align="center"><a href="ecstasy/export0.jpg"><img class="caption" src="ecstasy/export0.jpg" alt="picture"/></a></td>
+        <td align="center"><a href="ecstasy/export1.jpg"><img class="caption" src="ecstasy/export1.jpg" alt="picture"/></a></td>
+    </tr>
+</table>
+<div class="centrer">Cliquer sur les images pour les agrandir.</div>
+
+<p>Trois remarques :</p>
+<!-- Begin List -->
+<ul>
+<li>Si la voiture ne pla&icirc;t pas au joueur, alors celui-ci peut la
+  supprimer directement du dossier. Ecstasy doit avoir au moins une
+  voiture pour pouvoir s'ex&eacute;cuter.</li>
+<li>Si un ou plusieurs des fichiers suivants (carcasse.ase, roue.ase,
+  photo.jpg ou info.txt) n'existe pas (ou porte un autre nom) un
+  message d'erreur appara&icirc;t et la voiture ne sera pas prise en compte
+  dans le jeu.</li>
+<li>Modifier les param&egrave;tres de la voiture, sans comprendre ce que l'on
+  fait, peut conduire &agrave; des probl&egrave;mes num&eacute;riques; par exemple, si la
+  r&eacute;action du sol est trop forte ou le pas en temps est trop grand des
+  instabilit&eacute;s num&eacute;riques peuvent appara&icirc;tre et entra&icirc;ner l'arr&ecirc;t du
+  programme.</li>
+</ul>
+<!-- End list -->
+
+<div class="right"><a href="#top_page"><img class="icone5" src="img/2uparrow.png" alt="up"/></a></div></div>
+<!-- Subsection: Pour les d&eacute;veloppeurs -->
+<a id="devel" name="devel"></a><h2><img class="icone20" src="img/gear.png" alt=""/>Pour les d&eacute;veloppeurs</h2>
+<div class="boite"> 
+
+<p>Tout est expliqu&eacute; en anglais dans le fichier README
+  <a href="https://github.com/Lecrapouille/Ecstasy" target="_blank">GitHub</a> <img src="img/github.png" alt="github" height="16" width="16" border="0"/>. Le code source est en fran&ccedil;ais. La dynamique de
+  la voiture du joueur est expliqu&eacute;e sur une autre
+  <a href="tuto_dyna-fr.html">page</a> de mon site.</p>
 
 <div class="right"><a href="#top_page"><img class="icone5" src="img/2uparrow.png" alt="up"/></a></div></div>
 <!-- Subsection: Liens utiles pour la programmation OpenGL -->
@@ -328,16 +407,16 @@ RAR</td>
         <td align="center"><h3>Article suivant</h3></td>
     </tr>
     <tr>
-        <td align="center"><img class="icone5" src="img/leftarrowgris.png" alt="Prev"/></td>
+        <td align="center"><img class="icone5" src="img/2leftarrow.png" alt="ext Prev"/></td>
         <td align="center"><a href="index-fr.html"><img class="icone5" src="img/home.png" alt="home"/></a></td>
         <td align="center"><a href="#top_page"><img class="icone5" src="img/2uparrow.png" alt="up"/></a></td>
         <td align="center"><img class="icone5" src="img/2rightarrow.png" alt="Next"/></td>
     </tr>
     <tr>
+        <td align="center"><a href="speedway-fr.html">Le projet SpeedWay</a></td>
         <td align="center"></td>
         <td align="center"></td>
-        <td align="center"></td>
-        <td align="center"><a href="ecstasy-fr.html">Le projet Ecstasy</a></td>
+        <td align="center"><a href="simtadyn-fr.html">Le projet SimTaDyn</a></td>
     </tr>
 </table>
 
