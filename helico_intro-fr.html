@@ -1,0 +1,333 @@
+HELICO_HTML_BEGIN
+
+<!-- Section: intro -->
+<h1>Pr&eacute;sentation du projet</h1>
+
+<p><strong>Chapitrage :</strong></p>
+<ul>
+  <li><a href="#intro">Pr&eacute;sentation du projet</a></li>
+  <li><a href="#apercu">Aper&ccedil;u g&eacute;n&eacute;ral d'un
+h&eacute;licopt&egrave;re &agrave; quatre h&eacute;lices</a></li>
+  <li><a href="#contraintes">Contraintes du projet</a></li>
+</ul>
+
+<!-- Subsection: Objectif -->
+<h2>Objectif</h2>
+<div class="boite"> 
+<div class="boite">
+<p>Ce document, dans le cadre de l'ann&eacute;e de
+  sp&eacute;cialisation en temps r&eacute;el de l'EPITA,
+  pr&eacute;sente un projet mettant en oeuvre l'&eacute;tude et la
+  r&eacute;alisation d'un mod&egrave;le r&eacute;duit
+  d'h&eacute;licopt&egrave;re &agrave; quatre h&eacute;lices (que l'on
+  abr&eacute;gera, par la suite, par le mot h&eacute;licopt&egrave;re)
+  et de son banc d'essai &eacute;lectrom&eacute;canique et
+  logiciel.</p>
+
+<p>La stabilisation est calcul&eacute;e par un
+  ordinateur non embarqu&eacute; avec des logiciels de hauts niveaux. Les
+  microcontr&ocirc;leurs de l'h&eacute;licopt&egrave;re et l'ordinateur
+  communiquent entre eux. Les donn&eacute;es &eacute;mises des diff&eacute;rents
+  capteurs de l'h&eacute;licopt&egrave;re sont re&ccedil;ues par
+  l'ordinateur. Celui-ci effectue les calculs num&eacute;riques (loi de
+  commandes, consignes) puis renvoie les valeurs au microcontr&ocirc;leur
+  qui r&eacute;alise les commandes de stabilisation. Les moyens de calcul
+  embarqu&eacute;s permettront dans une deuxi&egrave;me phase de rendre
+  autonome l'h&eacute;licopt&egrave;re en lui permettant de calculer lui
+  m&ecirc;me les lois de commande.</p>
+
+<!-- <p>La stabilisation de l'h&eacute;licopt&egrave;re est calcul&eacute;e -->
+<!--   par un ordinateur non embarqu&eacute; avec des outils de hauts -->
+<!--   niveaux.  La communication entre des microcontr&ocirc;leurs et -->
+<!--   l'ordinateur permet &agrave; ce dernier de recevoir les -->
+<!--   donn&eacute;es &eacute;mises des diff&eacute;rents capteurs de -->
+<!--   l'h&eacute;licopt&egrave;re et d'effectuer les calculs -->
+<!--   num&eacute;riques (loi de commandes, consignes) puis de renvoyer les -->
+<!--   valeurs au microcontr&ocirc;leur qui r&eacute;alise les commandes de -->
+<!--   stabilisation. Les moyens de calcul embarqu&eacute;s permettront -->
+<!--   dans une deuxi&egrave;me phase de rendre autonome -->
+<!--   l'h&eacute;licopt&egrave;re en lui permettant de calculer lui -->
+<!--   m&ecirc;me les lois de commande.</p> -->
+
+<p>
+Des projets similaires existent d&eacute;j&agrave; (cf. figures
+ci-dessous) sous la forme commerciale connus sous les noms de
+Draganflyer, X-UFO. Il existe &eacute;galement des projets
+r&eacute;alis&eacute;s par des &eacute;tudiants ou par des
+passionn&eacute;s (voir la <a href="helico_biblio-fr.html#xufo">bibliographie</a>).</p>
+ENDBOX
+
+<div class="boite">
+TAB_DIM_3bis(CAPTION(helico/xufo.jpg),
+CAPTION(helico/engager.gif),
+CAPTION(helico/draganflyer.jpg),
+Le site du
+<a href="http://www.firebox.com/?dir=firebox&action=product&pid=1024" target="_blank">X-UFO</a> <img src="icons/externallink.png" height="12" width="12" border="0" alt="extlink"/>,
+Le site du
+<a href="http://hobby.keyence.co.jp/english/saucer.html" target="_blank">Engager</a> <img src="icons/externallink.png" height="12" width="12" border="0" alt="extlink"/>,
+Le site du
+<a href="http://www.rctoys.com/draganflyer5tipro.php" target="_blank">Draganflyer</a> <img src="icons/externallink.png" height="12" width="12" border="0" alt="extlink"/>)
+<!-- CAPTION(http://perso.wanadoo.fr/grzflyer/Pages_francais/les%20photos/version_1-02a-03/1-02a-03_Statique_02.JPG),
+CAPTION(http://static.rcgroups.com/forums/attachments/4/6/4/8/1/335691.attach?oJuyoTx5KmysAGNjYzcjMmfmZmH7BGR2nJ6uM7HyZxMdpTIa),
+Le
+<a href="http://www.firebox.com/?dir=firebox&action=product&pid=1024" target="_blank">X-UFO</a> <img src="icons/externallink.png" height="12" width="12" border="0" alt="extlink"/>,
+Le <a href="http://perso.wanadoo.fr/grzflyer/" target="_blank">Gorrazopt&egrave;re</a> <img src="icons/externallink.png" height="12" width="12" border="0" alt="extlink"/>,
+Le
+<a href="http://www.rcgroups.com/forums/showthread.php?s=05bcbf26fe1c60ab6f128e5e38fc88c5&t=297067&pp=15" target="_blank">MicroHeli4</a> <img src="icons/externallink.png" height="12" width="12" border="0" alt="extlink"/>
+de JoseJ)-->
+ENDBOX
+
+<div class="right"><a href="#top_page"><img class="icone5" src="icons/2uparrow.png" alt="up"/></a></div></div>
+<!-- Subsection: apercu -->
+<h2>Aper&ccedil;u g&eacute;n&eacute;ral d'un
+h&eacute;licopt&egrave;re &agrave; quatre h&eacute;lices</h2>
+<div class="boite"> 
+<div class="boite">
+
+<p>Un h&eacute;licopt&egrave;re
+  &agrave; quatre h&eacute;lices est une plate-forme volante
+  comprenant une <a href="helico_mecanique-fr.html">partie
+  m&eacute;canique</a> et une <a href="helico_electronique-fr.html">partie
+  &eacute;lectronique</a>.</p>
+
+<div class="centrer">CAPTION(helico/schemas/h4h.jpg)</div>
+
+<p>La partie m&eacute;canique a la forme d'une croix (donc deux axes)
+  sur laquelle est attach&eacute;e quatre moteurs.  En
+  g&eacute;n&eacute;ral, afin de r&eacute;duire au maximum le lacet de
+  l'appareil, deux moteurs tournent dans un sens et les deux autres
+  dans le sens oppos&eacute;. On devra donc utiliser deux types
+  d'h&eacute;lices. Voir <a href="helico/leshelices.pdf">ici</a>.  Parfois,
+  sur des mod&egrave;les de petites tailles, pour &eacute;viter
+  l'inversion du sens de rotation des moteurs, on incline les moteurs
+  (voir
+  <a href="http://www.rcgroups.com/forums/showthread.php?s=05bcbf26fe1c60ab6f128e5e38fc88c5&t=297067&pp=15" target="_blank">le
+  MicroHeli4 de JoseJ sur Rcgroups</a> <img src="icons/externallink.png" height="12" width="12" border="0" alt="extlink"/>).</p>
+
+<p>La partie &eacute;lectronique assure la stabilit&eacute; de la
+  plateforme en contr&ocirc;lant la vitesse des moteurs en fonction
+  des donn&eacute;es d'une centrale inertielle et des consignes
+  envoy&eacute;es par l'utilisateur (g&eacute;n&eacute;ralement par
+  radio-commande). Elle peut &eacute;ventuellement communiquer avec un
+  ordinateur non embarqu&eacute; au moyen d'un port s&eacute;rie
+  &agrave; des fins de d&eacute;bogage, de chargement des programmes
+  des &micro;C. Voir la section
+  <a href="helico_asservissement-fr.html">Asservissement</a>.</p>  ENDBOX
+
+<div class="right"><a href="#top_page"><img class="icone5" src="icons/2uparrow.png" alt="up"/></a></div></div>
+<!-- Subsection: contraintes -->
+<h2>Contraintes du projet</h2>
+<div class="boite"> 
+<div class="boite">
+<p><strong>Robustesse &agrave; son environnement.</strong> L'appareil est
+    pr&eacute;vu pour fonctionner en int&eacute;rieur, avec un minimum
+    de perturbation atmosph&eacute;rique.</p>
+
+ <p><strong>Contraintes de dimension et de poids de
+   l'h&eacute;licopt&egrave;re.</strong>  La plate-forme se veut &ecirc;tre de
+   dimension et de poids le plus r&eacute;duit possible (envergure
+   inf&eacute;rieur a 20 cm, poids en dessous des 200 g). On a choisi de ne
+   pas utiliser de cartes d'acquisitions &agrave; cause de leur poids et de
+   leur prix. L'acquisition des donn&eacute;es sera realis&eacute;e par un
+   microcontr&ocirc;leur PIC.</p>
+
+<!-- (type mini cartes m&egrave;res -->
+<!--    embarqu&eacute;es) est prohib&eacute;e car elles sont trop -->
+<!--    excessives (poids, volume, puissance de calculs) pour ce projet. La -->
+<!--    partie &eacute;lectronique doit donc &ecirc;tre fabriqu&eacute;e et -->
+<!--    adapt&eacute;e &agrave; l'h&eacute;licopt&egrave;re. Elle doit -->
+<!--    galement avoir une interface de communication avec l'ordinateur -->
+<!--    (pour le d&eacute;bugage, chargement de programmes).</p> -->
+
+<p> <strong>Communication avec un ordinateur non
+  embarqu&eacute;</strong>. L'h&eacute;licopt&egrave;re communique avec un
+  ordinateur non embarqu&eacute; au moyen d'un port s&eacute;rie.  Le
+  microcontr&ocirc;leur envoie les donn&eacute;es de la centrale
+  inertielle &agrave; l'ordinateur.  Ce dernier fait les calculs
+  flottants de stabilisation et les communique au
+  microcontr&ocirc;leur embarqu&eacute;.</p>
+
+<p><strong>Source d'&eacute;nergie</strong>. L'h&eacute;licopt&egrave;re ne
+  dispose pas de batterie, il est aliment&eacute; une source
+  d'&eacute;nergie au sol au moyen de fils &eacute;lectriques. Ce qui
+  permet une &eacute;conomie de poids importante et une autonomie
+  beaucoup plus grande.</p>
+
+<!--  <p><strong>Contrainte de l'ordinateur et de l'IHM.</strong> L'interface homme -->
+<!--    machine permet de simuler la plate-forme, puis de la -->
+<!--    contr&ocirc;ler r&eacute;ellement tout en visualisant ses -->
+<!--    &eacute;tats. L'ordinateur sera un mod&egrave;le standard (PC, -->
+<!--    Macintosh), avec &eacute;ventuellement un OS temps r&eacute;el dur -->
+<!--    ou mou mais il devra &ecirc;tre suffisamment r&eacute;actif pour -->
+<!--    assurer son r&ocirc;le de gestion de la stabilit&eacute;.</p> -->
+FINALBOX(,helico_etapes)
+
+<!-- This page was generated by script Fri 27 Sep 19 -->
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+
+<!-- HTML META -->
+<head>
+<title>_META_TITLE_</title>
+
+<meta name="keywords" content="_META_KEYWORDS_" />
+<meta name="description" content="_META_DESCRIPTION_" />
+<meta name="generator" content="GNU m4" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="css/styles.css" rel="stylesheet" type="text/css" />
+</head>
+
+<!-- HTML BODY -->
+<body><a id="top_page" name="top_page"></a>
+<table id="document">
+
+  <!-- DOCUMENT HEADER -->
+
+  <!-- Page Title -->
+  <tr>
+    <td colspan="2">
+      <div id="main_title">
+        _META_TITLE_
+      </div>
+    </td>
+    <td id="right_top_border"></td>
+  </tr>
+
+  <!-- Primary Menu -->
+  <tr>
+    <td colspan="2">
+      <!-- Begin Menu -->
+<div id="primary_header">
+<ul class="rubriques2">
+<li><a href="index-fr.html"><img class="icone20" src="icons/home.png" alt=""/>Accueil</a></li>
+<li><a href="helico_intro-fr.html"><img class="icone20" src="icons/gear.png" alt=""/>Syst&egrave;mes embarqu&eacute;s</a></li>
+<li><a href="ecstasy-fr.html"><img class="icone20" src="icons/eyes.png" alt=""/>Projets informatiques</a></li>
+<li><a href="tuto_scicos-fr.html"><img class="icone20" src="icons/read.png" alt=""/>Tutoriels</a></li>
+</ul>
+</div>
+<!-- End Menu -->
+    </td>
+    <td id="right_border"> <!-- empty --> </td>
+  </tr>
+
+  <!-- Secondary Menu -->
+  <tr>
+    <td colspan="2">
+      _SECONDARY_HEAD_MENU_
+    </td>
+    <td id="right_border"> <!-- empty --> </td>
+  </tr>
+
+  <!-- DOCUMENT BODY -->
+  <tr>
+    <!-- BEGIN LEFT BORDER -->
+    <td id="left_border">
+        <div id="menu">
+           <!-- Translated Pages -->
+           <p><img src="icons/fr.png" style="border:0;" alt="fr"/> <a href="helico_intro-en.html"><img src="icons/en.png" style="border:0;" alt="en"/></a></p>
+
+           <!-- Begin Table of Contents -->
+<h1>Table des mati&egrave;res:</h1>
+<ul class="items">
+<li><a href="#"><img class="icone7" src="img/bullet.gif" alt=""/>intro.</a></li>
+
+<li><a href="#"><img class="icone7" src="img/bullet.gif" alt=""/>apercu.</a></li>
+<li><a href="#"><img class="icone7" src="img/bullet.gif" alt=""/>contraintes.</a></li>
+</ul>
+<!-- End Table of Contents -->
+
+           <!-- BEGIN LEFT BORDER DIVERSION -->
+           
+           <!-- END LEFT BORDER DIVERSION -->
+
+<br/><hr/><!-- Begin Badges -->
+<p>Les documents (PDF, codes sources, programmes, ...) fournis sur ce site sont mis &agrave; disposition sous licences </p>
+<table width="100%" align="center">
+<tr><td colspan="2"><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.fr"><img alt="CC" style="border:0;" height="60" width="128" src="https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc-sa.png" /></a></td><td><a href="https://www.gnu.org/licenses/gpl-3.0.fr.html"><img alt="GNU GPL" style="border:0;" src="http://creativecommons.org/images/public/cc-GPL-a.png" /></a></td></tr>
+<tr><td><a href="http://validator.w3.org/check?uri=referer">
+<img src="http://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0!"
+style="border:0" height="15" width="66" /></a></td><td><a href="http://jigsaw.w3.org/css-validator/check/referer">
+<img src="icons/css.gif" alt="Valid CSS!" style="border:0" height="15" width="66" /></a></td><td><!-- phpmyvisites -->
+<a href="http://st.free.fr/" title="phpMyVisites | Open source web analytics"
+onclick="window.open(this.href);return(false);"><script type="text/javascript">
+<!--
+var a_vars = Array();
+var pagename='';
+var phpmyvisitesSite = 21477; var phpmyvisitesURL = "http://st.free.fr/phpmyvisites.php";
+//-->
+</script>
+<script language="javascript" src="http://st.free.fr/phpmyvisites.js" type="text/javascript"></script>
+<object><noscript><p>phpMyVisites | Open source web analytics
+<img src="http://st.free.fr/phpmyvisites.php" alt="Statistics" style="border:0" />
+</p></noscript></object></a>
+<!-- /phpmyvisites --></td></tr>
+</table><hr/>
+<!-- End Badges -->
+<a href="https://github.com/Lecrapouille/WebSiteGenerator" target="_blank"><img src="icons/github.png" alt="github" height="40" width="40" border="0"/></a> <img src="icons/github.png" alt="github" height="16" width="16" border="0"/>
+<!-- Left Heading -->
+<h1><!-- Update -->
+Page auto-g&eacute;n&eacute;r&eacute;e le :</h1>
+<ul class="items">
+ <li><a href="https://github.com/Lecrapouille/WebSiteGenerator"><img class="icone7" src="img/bullet.gif" alt=""/>Fri 27 Sep 19.</a></li> 
+</ul>
+
+<hr/>
+        </div>
+    </td>
+    <!-- END LEFT BORDER -->
+
+    <!-- BEGIN ARTICLE -->
+    <td id="article">
+        
+        </div>
+    </td>
+    <!-- END ARTICLE BODY -->
+
+    <!-- BEGIN <div class="right"></div> BORDER -->
+    <td id="right_border"> <!-- empty --> </td>
+    <!-- END <div class="right"></div> BORDER -->
+  </tr>
+
+  <!-- DOCUMENT FOOTER -->
+  <tr>
+    <td colspan="3" id="footer">
+          <!-- BEGIN USER FOOTER -->
+          
+
+          
+<table width="90%" align="center">
+    <tr>
+        <td align="center"><h3>Article pr&eacute;c&eacute;dent</h3></td>
+        <td align="center"><h3>Page d'accueil</h3></td>
+        <td align="center"><h3>Aller en haut</h3></td>
+        <td align="center"><h3>Article suivant</h3></td>
+    </tr>
+    <tr>
+        <td align="center"><img class="icone5" src="icons/leftarrowgris.png" alt="Prev"/></td>
+        <td align="center"><a href="index-fr.html"><img class="icone5" src="icons/home.png" alt="home"/></a></td>
+        <td align="center"><a href="#top_page"><img class="icone5" src="icons/2uparrow.png" alt="up"/></a></td>
+        <td align="center"><img class="icone5" src="icons/rightarrowgris.png" alt="Next"/></td>
+    </tr>
+    <tr>
+        <td align="center"></td>
+        <td align="center"></td>
+        <td align="center"></td>
+        <td align="center"></td>
+    </tr>
+</table>
+
+          <!-- END USER FOOTER -->
+    </td>
+  </tr>
+</table>
+<!-- HTML EOF -->
+</body>
+</html>
+
+<!-- This page was generated by script Fri 27 Sep 19 -->
+<!-- HTML EOF -->
+</body>
+</html>
